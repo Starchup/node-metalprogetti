@@ -1,0 +1,25 @@
+{
+    "name": "node-metalprogetti",
+    "version": "0.0.1",
+    "description": "Metalprogetti file API",
+    "main": "build/app.js",
+    "scripts":
+    {
+        "tsc": "tsc",
+        "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+        "prod": "tsc && node ./build/app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies":
+    {
+        "@types/node": "11.13.0",
+        "moment": "2.24.0",
+        "ws": "7.1.2"
+    },
+    "devDependencies":
+    {
+        "ts-node-dev": "1.0.0-pre.32",
+        "typescript": "3.3.4000"
+    }
+}
