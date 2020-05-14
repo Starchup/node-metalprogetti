@@ -1,6 +1,6 @@
 {
     "name": "node-metalprogetti",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Metalprogetti file API",
     "main": "build/app.js",
     "scripts":
@@ -13,13 +13,13 @@
     "license": "ISC",
     "dependencies":
     {
-        "@types/node": "11.13.0",
-        "moment": "2.24.0",
-        "ws": "7.1.2"
+        "@types/node": "13.13.5",
+        "moment": "2.25.3",
+        "ws": "7.3.0"
     },
     "devDependencies":
     {
-        "ts-node-dev": "1.0.0-pre.32",
-        "typescript": "3.3.4000"
+        "ts-node-dev": "1.0.0-pre.44",
+        "typescript": "3.8.3"
     }
 }
